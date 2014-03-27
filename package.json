@@ -1,0 +1,32 @@
+{
+  "name": "node-php-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Node.js PHP Application Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sendanor/node-php-server.git"
+  },
+  "keywords": [
+    "node",
+    "php",
+    "cgi",
+    "fcgi",
+    "fpm"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/node-php-server/issues"
+  },
+  "homepage": "https://github.com/sendanor/node-php-server",
+  "dependencies": {
+    "nodephp": "sendanor/node-php",
+    "nor-debug": ">= 0.1.24 < 0.2.0"
+  }
+}
